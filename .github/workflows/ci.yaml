@@ -30,4 +30,4 @@ jobs:
       - name: Run vet and lint
         run: |
           go vet .
-          go lint .
+          golint .
